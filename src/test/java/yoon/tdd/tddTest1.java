@@ -264,16 +264,16 @@ public class tddTest1 {
                 count++;
             }
         }
-        if (count >= 3) {
+        if (count == 3) {
             rank = 5;
         }
-        if (count >= 4) {
+        if (count == 4) {
             rank = 4;
         }
-        if (count >= 5) {
+        if (count == 5) {
             rank = 3;
         }
-        if (count >= 6) {
+        if (count == 6) {
             rank = 1;
         }
         for (LottoNumber lottoNumber : me) {
