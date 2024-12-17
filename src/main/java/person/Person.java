@@ -14,6 +14,8 @@ public class Person {
         this.personalHistory = personalHistory;
     }
 
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

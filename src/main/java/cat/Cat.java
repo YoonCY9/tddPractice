@@ -5,10 +5,10 @@ import java.util.Objects;
 public class Cat {
 
     String cat;
-    double catWeight;
+    int catWeight;
     int catAge;
 
-    public Cat(String cat,double catWeight, int catAge) {
+    public Cat(String cat,int catWeight, int catAge) {
         this.cat = cat;
         this.catWeight = catWeight;
         this.catAge = catAge;
@@ -31,7 +31,7 @@ public class Cat {
         return Objects.hash(cat, catWeight, catAge);
     }
 
-    public double getCatWeight() {
+    public int getCatWeight() {
         return catWeight;
     }
 
